@@ -1,0 +1,57 @@
+resources/views/
+├── auth/                      # Halaman autentikasi
+│   ├── login.blade.php
+│   ├── register.blade.php
+│   └── forgot-password.blade.php
+│
+├── layouts/                   # Layout dasar
+│   ├── app.blade.php          # Layout utama
+│   ├── admin.blade.php        # Layout khusus admin
+│   ├── guru.blade.php         # Layout khusus guru
+│   └── siswa.blade.php        # Layout khusus siswa
+│
+├── admin/                     # Halaman admin
+│   ├── dashboard.blade.php
+│   ├── guru/
+│   │   ├── index.blade.php    # Daftar guru
+│   │   ├── create.blade.php   # Tambah guru
+│   │   └── edit.blade.php     # Edit guru
+│   ├── siswa/
+│   │   ├── index.blade.php    # Daftar siswa
+│   │   ├── create.blade.php   # Tambah siswa
+│   │   └── edit.blade.php     # Edit siswa
+│   ├── modul/
+│   │   ├── index.blade.php    # Kelola modul
+│   │   └── review.blade.php   # Review modul
+│   └── settings.blade.php     # Pengaturan sistem
+│
+├── guru/                      # Halaman guru
+│   ├── dashboard.blade.php
+│   ├── modul/
+│   │   ├── index.blade.php    # Daftar modul
+│   │   ├── create.blade.php   # Buat modul
+│   │   └── edit.blade.php     # Edit modul
+│   ├── jurnal/
+│   │   ├── index.blade.php    # Daftar jurnal
+│   │   ├── create.blade.php   # Buat jurnal
+│   │   └── show.blade.php     # Detail jurnal
+│   └── profile.blade.php      # Profil guru
+│
+├── siswa/                     # Halaman siswa
+│   ├── dashboard.blade.php
+│   ├── modul/
+│   │   └── index.blade.php    # Daftar modul ajar
+│   ├── tugas/
+│   │   └── index.blade.php    # Daftar tugas
+│   └── profile.blade.php      # Profil siswa
+│
+├── components/                # Komponen reusable
+│   ├── alerts.blade.php
+│   ├── sidebar-admin.blade.php
+│   ├── sidebar-guru.blade.php
+│   └── sidebar-siswa.blade.php
+│
+└── partials/                  # Partial views
+    ├── header.blade.php
+    ├── footer.blade.php
+    └── scripts.blade.php
