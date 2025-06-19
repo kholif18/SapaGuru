@@ -25,21 +25,39 @@
             <div class="sidebar-content">
                 <ul class="nav nav-secondary">
                     <li class="nav-item active">
-                        <a href="{{ route('guru.dashboard') }}">
+                        <a href="{{ route('siswa.dashboard') }}">
                             <i class="fas fa-home"></i>
                             <p>Dashboard</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('guru.modul') }}">
-                            <i class="fas fa-desktop"></i>
-                            <p>Modul Ajar</p>
+                        <a href="#">
+                            <i class="fas fa-calendar"></i>
+                            <p>Jadwal & Kalender</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ url('/modul') }}">
+                        <a href="#">
                             <i class="fas fa-book"></i>
-                            <p>Jurnal Mengajar</p>
+                            <p>Tugas & Materi</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fas fa-book"></i>
+                            <p>Transkrip Siswa</p>
+                        </a>
+                    </li>
+                    <li class="nav-section">
+                        <span class="sidebar-mini-icon">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </span>
+                        <h4 class="text-section">User Settings</h4>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fas fa-user"></i>
+                            <p>Profile</p>
                         </a>
                     </li>
                 </ul>
