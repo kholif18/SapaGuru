@@ -36,6 +36,10 @@ resources/views/
 │   │   ├── create.blade.php   # Buat jurnal
 │   │   └── show.blade.php     # Detail jurnal
 │   └── profile.blade.php      # Profil guru
+|   |   Jadwal
+        Tugas
+        Nilai
+        To do List
 │
 ├── siswa/                     # Halaman siswa
 │   ├── dashboard.blade.php
