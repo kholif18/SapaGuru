@@ -62,6 +62,13 @@ Route::prefix('guru')->name('guru.')->group(function (){
 });
 
 
+
+// Siswa ==================
+
+Route::prefix('siswa')->name('siswa.')->group(function (){
+    Route::get('/dashboard', [SiswaDashboardController::class, 'index'])->name('dashboard');
+});
+
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
 // })->middleware(['auth', 'verified'])->name('dashboard');

@@ -1642,6 +1642,10 @@ body[data-background-color="dark"] .border-top {
     margin-bottom: 5px; }
   .card .card-footer .legend, .card-light .card-footer .legend {
     display: inline-block; }
+  .card-head-row .icon {
+    font-size: 1.5rem;
+    color: #3498db;
+}
 
 @media screen and (max-width: 476px) {
   .card .card-head-row:not(.card-tools-still-right) {
